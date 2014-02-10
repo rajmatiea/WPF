@@ -10,6 +10,6 @@ var people = 6;
 var newPrice = jetBlue + upgrade;
 var total = newPrice * people;
 
-
 console.log("The price change for each person is $" + newPrice + ", and the total cost is $" + total);
+
 
