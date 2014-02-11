@@ -14,3 +14,5 @@ var eachChild = total / kids;
 
 console.log("The total cost for the trip is $" + total);
 console.log("Permission slip reflecting $" + eachChild + " per child to be sent home.");
+
+alert("Based upon your input the total trip is $" + total + "\nEach child would have to pay " + eachChild);
