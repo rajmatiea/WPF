@@ -12,8 +12,12 @@ var contAmount = prompt("What amount in dollars do you contribute per month?")
 var employerContri = 15; //employee's contribution is 15%
 
 //Based upon employee's input their yearly earings would be printed to the console and displayed in the alert.
-alert(userName +" earnings from employer for the year is $" + employerContri/100 * contAmount * months);
-alert("Earnings from your contribution for the year is $" + contAmount * months);
+alert(userName+", your earnings from employer for the year is $" + employerContri/100 * contAmount * months);
+alert("And, earnings from your contribution for the year is $" + contAmount * months);
 
 console.log("Earnings from employer for the year is $" + employerContri/100 * contAmount * months);
 console.log("Earnings from your contribution for the year is $" + contAmount * months);
+
+
+
+
