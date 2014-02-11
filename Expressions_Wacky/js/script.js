@@ -9,3 +9,8 @@ var busRide = 1200; //bus day rate
 var lunch = 14; //per child
 var flags = 3.20; //flag as identitifier so no one gets lost
 var blanket = 5; //to stay warm
+var total = (busRide) + (lunch + flags + blanket) *kids;
+var eachChild = total / kids;
+
+console.log("The total cost for the trip is $" + total);
+console.log("Permission slip reflecting $" + eachChild + " per child to be sent home.");
