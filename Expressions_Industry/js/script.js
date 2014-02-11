@@ -1,7 +1,7 @@
-//Rajmatie Arjune, February 9, 2014: Expressions Industry
+//Rajmatie Arjune, February 10, 2014: Expressions Industry
 
 //Retirement planning for the year 2014.
-//Employee and employer contribution.
+//Employee and employer's contribution.
 
 var months = 12;
 var contribution = 0; //this value to be filled in by contributor
