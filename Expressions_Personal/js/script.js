@@ -11,8 +11,25 @@ var month = 12;
 
 var entry = (coffee * userEntry) + (creamer * userEntryTwo);
 
-console.log("You will spend at total of $" + entry * month);
-alert("You will spend a total of $" + entry * month);
+
+console.log("You will spend a total of $" + entry * month + " for the year.");
+alert("You will spend a total of $" + entry * month + " for the year.");
+
+alert("You have the option to choose a cheaper brand. Do you want to continue? \nClick OK to continue, or just exit the page to abort.")
+
+var input = prompt("Zak's coffee is $2.50 per lb. How many would you like?");
+var zakcoffee = 2.50;
+var zakTotal = (input * zakcoffee);
+
+console.log("If you buy from Zak's you will spend total of $" + zakTotal * month);
+alert("If you buy from Zak's you will spend a total of $" + zakTotal * month);
+
+confirm("Thank you for your order! \nHave a nice day!");
+
+
+
+
+
 
 
 
