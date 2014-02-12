@@ -5,9 +5,14 @@
 var coffee = 4.75;  //per lb 
 var creamer = 3.50; //per bottle
 
+var userEntry = prompt("How many bags of coffee do you buy per month?");
+var userEntryTwo = prompt("How many bottles of creamer do you buy per month?");
+var month = 12;
 
+var entry = (coffee * userEntry) + (creamer * userEntryTwo);
 
-
+console.log("You will spend at total of $" + entry * month);
+alert("You will spend a total of $" + entry * month);
 
 
 
