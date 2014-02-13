@@ -25,5 +25,12 @@ var zakTotal = (input * zakcoffee);
 console.log("If you buy from Zak's you will spend total of $" + zakTotal * month);
 alert("If you buy from Zak's you will spend a total of $" + zakTotal * month);
 
+var coffeeSub = coffee * userEntry;
+var savings = coffeeSub - zakTotal
+
+console.log("You will save a total of $" + savings * month);
+
+confirm("You will save a total of $" + savings * month);
 confirm("Thank you for your order! \nHave a nice day!");
+
 
