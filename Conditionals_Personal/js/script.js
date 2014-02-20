@@ -16,3 +16,7 @@ var classReceipe = brownieMix + eggs;
 var ingredients = prompt("How many boxes of brownieMix are you making?");
 var ingredientsTwo = prompt("How many eggs are you using?");
 
+//Condition to be printed to the console after input is made.
+if (ingredients > ingredientsTwo) {
+    console.log("Your receipe would make great Fudge brownies!");
+    alert("Your receipe would make great Fudge brownies!");
