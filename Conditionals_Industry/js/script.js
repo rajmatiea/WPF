@@ -24,3 +24,5 @@ if (quantityReq + print < 30) { console.log("Memos will be printed and delivered
     alert("Please provide each Employee's email addresses for Memo to be sent.");
 }
 
+confirm("Thank you for the information.\nYour department will be provided with " + employee + " instructional Memos!");
+
