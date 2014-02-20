@@ -11,3 +11,12 @@ var manager = 1;
 var paper = .019;
 var ink = .065;
 
+var quantityReq = memoPages * employee;
+var print = paper * ink;
+
+//If copies of printout is less than 30 pages, memos will be printed.
+if (quantityReq + print < 30) { console.log("Memos will be printed and delivered to each Employee!");
+    alert("Memos will be printed and delivered to each Employee!");
+
+//If copies of printout is more than 30 pages, memos will be sent via email.
+}
