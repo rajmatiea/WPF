@@ -20,3 +20,8 @@ var ingredientsTwo = prompt("How many eggs are you using?");
 if (ingredients > ingredientsTwo) {
     console.log("Your receipe would make great Fudge brownies!");
     alert("Your receipe would make great Fudge brownies!");
+    
+//Choices made would result in either fudge or cake brownies.    
+}else if (ingredients < ingredientsTwo || fudge > brownieMix) {
+    console.log("Your receipe would make great Cake brownies!");
+    alert("Your receipe would make great Cake brownies!");
