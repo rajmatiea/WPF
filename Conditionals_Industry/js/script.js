@@ -19,4 +19,8 @@ if (quantityReq + print < 30) { console.log("Memos will be printed and delivered
     alert("Memos will be printed and delivered to each Employee!");
 
 //If copies of printout is more than 30 pages, memos will be sent via email.
+}else if (quantityReq + print > 30) { 
+    console.log("Please provide each Employee's email addresses for Memo to be sent.");
+    alert("Please provide each Employee's email addresses for Memo to be sent.");
 }
+
