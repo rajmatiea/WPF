@@ -25,3 +25,11 @@ if (ingredients > ingredientsTwo) {
 }else if (ingredients < ingredientsTwo || fudge > brownieMix) {
     console.log("Your receipe would make great Cake brownies!");
     alert("Your receipe would make great Cake brownies!");
+    
+//If choice equals to ingredients available, team would follow class receipe.    
+}else{
+    console.log("You could also follow the class's receipe if you like.");
+    alert("You could also follow the class's receipe if you like.");
+}
+    
+    
