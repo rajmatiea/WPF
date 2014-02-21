@@ -20,3 +20,15 @@ var extra = friendContri + subTotal;
 var subTotal = total - targetAmount;
 
 console.log("You raised a total of $" + total);
+
+if (total <= targetAmount) {
+    console.log("We cannot buy both items.");
+    alert("We cannot buy both items.");
+
+    if (total <= targetAmount) {
+        console.log("Would you like to give cash instead?");
+        confirm("Would you like to give cash as the gift instead?");
+
+    }else (total = subTotal); {
+        console.log("Your friend would love the gift.");
+    }
