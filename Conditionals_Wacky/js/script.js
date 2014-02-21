@@ -19,16 +19,24 @@ var extra = friendContri + subTotal;
 
 var subTotal = total - targetAmount;
 
-console.log("You raised a total of $" + total);
+console.log("We raised a total of $" + total);
+alert("We raised a total of $" + total);
 
 if (total <= targetAmount) {
     console.log("We cannot buy both items.");
     alert("We cannot buy both items.");
 
     if (total <= targetAmount) {
-        console.log("Would you like to give cash instead?");
-        confirm("Would you like to give cash as the gift instead?");
+        console.log("Would you like us to give cash instead?");
+        confirm("Would you like us to give cash as the gift instead?");
 
     }else (total = subTotal); {
-        console.log("Your friend would love the gift.");
+        console.log("I think she would love the gift.");
     }
+}else if (total > targetAmount)  {
+    console.log("We can buy both items, and have $" + subTotal + " of extra cash for Dinner!");
+    alert("We can buy both items, and have $" + subTotal + " of extra cash for Dinner!");
+
+}else{
+    console.log("You did not raise enough money for either gifts.");
+}
