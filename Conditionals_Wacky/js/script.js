@@ -8,3 +8,7 @@ var friend = 10;
 var camera = 255;
 var guitar = 205;
 
+//Calculation is based upon each person's contribution times 10 people.
+
+var friendContri = prompt("How much did each person contribute?");
+
