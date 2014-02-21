@@ -12,3 +12,11 @@ var guitar = 205;
 
 var friendContri = prompt("How much did each person contribute?");
 
+var total = friendContri * 10;
+var items = camera + guitar;
+var itemPlus = items * 2;
+var extra = friendContri + subTotal;
+
+var subTotal = total - targetAmount;
+
+console.log("You raised a total of $" + total);
