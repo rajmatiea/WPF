@@ -20,5 +20,30 @@ function circleCircum(r, d) {
 circleCircum();
 
 
-
 //Stung!
+//function name and parameters
+function theAmountOfBees(cow, bees) {
+    //defining variable 
+    var cow = 200; //weight of a cow
+    var bees = 8.666666667;
+    //calculating the weight of a cow by the amount of bees
+    var stings = cow * bees;
+    console.log("It takes " + stings + " Bee strings to kill a cow.");
+    return stings;
+}
+
+theAmountOfBees();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
