@@ -40,3 +40,5 @@ if (total <= targetAmount) {
 }else{
     console.log("You did not raise enough money for either gifts.");
 }
+
+
