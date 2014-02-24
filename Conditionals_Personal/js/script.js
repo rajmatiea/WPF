@@ -4,6 +4,7 @@
 
 //A class are divided into groups for a cooking class to make brownies.
 //Items are to be chosen by the teams. Their input would calculate the type of brownies to make.
+
 var brownieMix = 2;
 var eggs = 2;
 var fudge = eggs * 1;
@@ -32,6 +33,25 @@ if (ingredients > ingredientsTwo) {
     alert("You could also follow the class's receipe if you like.");
 }
 
+//Each team lead is 12 years old, and  needs to enter age to confirm order.
+
+var userEntry = prompt("How old are you?");
+
+var studentAge = 12;
+//student's age to be entered exactly as 12, if not the user will have to retry.
+if (userEntry === "12") {
+    console.log("Thank you for your entry, your order will be delivered to your classroom!");
+    alert("Thank you for your entry, your order will be delivered to your classroom!");     
+
+}else{
+    console.log("Sorry your age does not match our record, please try again.");
+    prompt("Sorry your age does not match our record, please try again.");
+    alert("Thank you for your entry, your order will be delivered to your classroom!");     
+}
+
 confirm("Enjoy your delicious Brownies with your TEAM!!");
+
+//printing a friendly message to the console.
+console.log("Enjoy your delicious Brownies with your TEAM!!");
     
     
