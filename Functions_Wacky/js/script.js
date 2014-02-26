@@ -20,7 +20,15 @@ function myBookOrder(onlinePurchase, inStore) {
     if (userEntry < inStore != userEntry < result) {
         alert("You could buy online for $14 plus $5 shippping and handling.");
         console.log("You could buy online for $14 plus $5 shippping and handling.");
+        
+    }else if (userEntry > 20) {
+        alert("You could buy the book from Book-A-Million for $20.");
+        console.log("You could buy the book from Book-A-Million for $20.");
     
+    }else{
+        alert("You could buy from Walmart for $18 or, \nBarnes & Noble for $19.");
+        console.log("You could buy from Walmart for $18 or, \nBarnes & Noble for $19.");
+        return userEntry;
     
     }
     
