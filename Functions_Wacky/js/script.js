@@ -15,7 +15,7 @@
     
 function myBookOrder(onlinePurchase, inStore) {
     //prompts for user entry
-    var userEntry = prompt("What price did you want to pay?");
+    var userEntry = prompt("What price dos you want to pay?");
     
     if (userEntry < inStore != userEntry < result) {
         alert("You could buy online for $14 plus $5 shippping and handling.");
@@ -37,3 +37,5 @@ function myBookOrder(onlinePurchase, inStore) {
     }
         
 }
+
+myBookOrder();
