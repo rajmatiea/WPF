@@ -24,3 +24,11 @@ var clothesShopping = function(){
 //The total cost is calculated with shipping charge added.    
     var totaltest = subTotal + shipping;
     var total = subTotal * customer + shipping;
+
+    //confirm("Your cost is $ " + customer * dress)
+    //console.log("Your cost is $ " + customer + subTotal);
+    
+//Result will be printed to console based upon user response.    
+    console.log("Your total order with shipping is $" + total);
+    alert("Your total order with shipping is $" + total);
+    confirm("Please confirm your total is correct!");
