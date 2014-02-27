@@ -12,3 +12,7 @@ var clothesShopping = function(){
     var blouse = 17.25;
     var shoes = 35.99;
     var shipping = 25;
+    
+    var subTotal = [dress + jeans + blouse + shoes];
+    
+    
