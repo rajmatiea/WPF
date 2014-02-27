@@ -20,4 +20,5 @@ var clothesShopping = function(){
     var customerTwo = prompt("Please enter quantity of blouse needed.");
     var customerThree = prompt("Please enter quantity of shoes needed.");
     
-    
+    var totaltest = subTotal + shipping;
+    var total = subTotal * customer + shipping;
