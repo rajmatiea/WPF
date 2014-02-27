@@ -25,7 +25,7 @@ function mySpreadsheet() {
         
     }else{
         alert("You could use the spreadsheet template " + dimension + " cells.");
-        console.log("You could use the spreadsheet template " + dimension + " cells.");
+        console.log("You could use the office spreadsheet template " + dimension + " cells.");
     
     }
 
