@@ -32,3 +32,12 @@ var clothesShopping = function(){
     console.log("Your total order with shipping is $" + total);
     alert("Your total order with shipping is $" + total);
     confirm("Please confirm your total is correct!");
+
+    console.log(total);
+    console.log(subTotal * customer + shipping);
+
+    return clothesShopping;
+   
+}
+
+clothesShopping();
