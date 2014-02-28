@@ -2,13 +2,15 @@
 
 //Preparing spreadsheet for income/expenditure statement.
 
-function mySpreadsheet() {
 //Cells for spreadsheet would be determined based upon input.
+function mySpreadsheet(cells,width,height) {
 
+//Dimension for spreadsheet preparation.
     var cells = 0;
     var width = 10;
     var height = 8;
-    
+ 
+//Enter your width and height to make your spreadsheet.     
     var width = prompt("What is the width of your spreadsheet?");
     var height = prompt("What is the height of your spreadsheet?");
     
