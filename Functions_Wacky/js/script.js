@@ -2,11 +2,15 @@
 
 //Shopping online and in store for a motivational book.
 //online you could pay one price, but here we'll compare once we check the price in store vs.online.
-     
+ 
+myBookOrder(21, 19);
+
 function myBookOrder(onlinePurchase, inStore) {
+    
+    var storePrice = 15;
 
 //User to tell us what price they are looking to pay.
-    var userEntry = prompt("What price are you looking to pay for the book?");
+    //var userEntry = prompt("What price are you looking to pay for the book?");
 
 //You could purchase online or in store, but you could compare what is available.    
     var online = 16; //Book price online.
@@ -20,12 +24,12 @@ function myBookOrder(onlinePurchase, inStore) {
     var result = onlinePurchase - inStore;
 
 //If what you want to pay is less than store price or not equal to online price, buy online.    
-    if (userEntry < inStore != userEntry <= onlinePurchase) {
+    if (storePrice < inStore != storePrice <= onlinePurchase) {
         alert("You could buy online for $14 plus $5 shippping and handling.");
         console.log("You could buy online for $14 plus $5 shippping and handling.");
 
 //Else if the price you want to pay is less than online price, you could buy for $20 from booksAmillion.        
-    }else if (userEntry < onlinePurchase) {
+    }else if (storePrice < onlinePurchase) {
         alert("You could buy the book from Book-A-Million for $20.");
         console.log("You could buy the book from Book-A-Million for $20.");
 
@@ -33,14 +37,14 @@ function myBookOrder(onlinePurchase, inStore) {
     }else{
         alert("You could buy from Walmart for $18 or, \nBarnes & Noble for $19.");
         console.log("You could buy from Walmart for $18 or, \nBarnes & Noble for $19.");
-        return userEntry;
+        return onlinePurchase;
     }
 
 //If there is a savings, it would loop in the console.    
-    while (userEntry > 0){
-        console.log(userEntry + " Wonderful! You saved $" + result);
-        userEntry--;
-    }
+    //while (onlinePurchase > 0){
+      //  console.log(inStore + " Wonderful! You saved $" + result);
+        //inStore--;
+    //}
         
 }
 
